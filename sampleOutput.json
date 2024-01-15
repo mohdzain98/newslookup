@@ -1,0 +1,110 @@
+{
+    "status": "ok",
+    "totalResults": 8,
+    "articles": [
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Homero De la Fuente",
+            "title": "Alabama names Kalen DeBoer as next head football coach",
+            "description": "The University of Alabama has named Kalen DeBoer, head coach at the University of Washington, as its next head football coach, the school announced on Friday.",
+            "url": "https://www.cnn.com/2024/01/12/sport/alabama-kalen-deboer-head-football-coach/index.html",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/240112195627-kalen-deboer-010824.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2024-01-13T01:01:56Z",
+            "content": "The University of Alabama has named Kalen DeBoer, head coach at the University of Washington, as its next head football coach, the school announced Friday.\r\nDeBoer succeeds the retiring Nick Saban, w… [+1814 chars]"
+        },
+        {
+            "source": {
+                "id": "espn",
+                "name": "ESPN"
+            },
+            "author": "Brady Henderson",
+            "title": "Pete Carroll: Wasn't 'football people' who decided his fate - ESPN",
+            "description": "Pete Carroll said that it wasn't 'football people' who made the decision to end his 14-year run as Seattle Seahawks head coach in a radio interview that aired on Friday.",
+            "url": "https://www.espn.com/nfl/story/_/id/39295019/football-people-decided-fate",
+            "urlToImage": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2022%2F0105%2Fr958239_1296x729_16%2D9.jpg",
+            "publishedAt": "2024-01-12T21:11:00Z",
+            "content": "SEATTLE -- Pete Carroll's 14-year run as Seattle Seahawks head coach came to an end on Wednesday when team owner Jody Allen announced that he's transitioning into an advisory role with organization, … [+3631 chars]"
+        },
+        {
+            "source": {
+                "id": "msnbc",
+                "name": "MSNBC"
+            },
+            "author": "Dave Zirin",
+            "title": "How football left coaches like Bill Belichick, Nick Saban and Pete Carroll behind",
+            "description": "With Bill Belichick, Nick Saban and Pete Carroll not be coaching next year, it's that clear some of football’s greatest minds are being left in the dust.",
+            "url": "https://www.msnbc.com/opinion/msnbc-opinion/football-coaches-bill-belichick-nick-saban-pete-carroll-rcna133507",
+            "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2024-01/2401011-belichick-carroll-saban-al-1332-2e522c.jpg",
+            "publishedAt": "2024-01-12T21:04:30Z",
+            "content": "For me, there was just one memorable line from the otherwise forgettable 1996 presidential race between incumbent Bill Clinton and his opponent, the 73-year-old Sen. Bob Dole. Clinton would say, almo… [+4767 chars]"
+        },
+        {
+            "source": {
+                "id": "espn",
+                "name": "ESPN"
+            },
+            "author": "Mark Schlabach, Chris Low",
+            "title": "Sources: Washington's DeBoer agrees to become next Alabama coach - ESPN",
+            "description": "Washington's Kalen DeBoer, who guided the Huskies to a spot in the College Football Playoff National Championship game this past season, has agreed to a deal to become the next head coach at Alabama, sources told ESPN on Friday.",
+            "url": "https://www.espn.com/college-football/story/_/id/39294498/deboer-alabama-replace-saban-head-coach",
+            "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F0109%2Fr1275196_1296x729_16%2D9.jpg",
+            "publishedAt": "2024-01-12T19:02:00Z",
+            "content": "Jan 12, 2024, 02:02 PM ET\r\nWashington's Kalen DeBoer, who guided the Huskies to a Pac-12 championship and a spot in the College Football Playoff National Championship game this past season, has agree… [+3073 chars]"
+        },
+        {
+            "source": {
+                "id": "bleacher-report",
+                "name": "Bleacher Report"
+            },
+            "author": "David Kenyon",
+            "title": "Unique Stats from the 2023 College Football Regular Season",
+            "description": "Numbers are an integral part of college football. Whether you're previewing games, ranking teams or picking an award winner, statistics help shape the story.…",
+            "url": "https://bleacherreport.com/articles/10100739-unique-stats-from-the-2023-college-football-regular-season",
+            "urlToImage": "https://media.bleacherreport.com/image/upload/c_fill,g_faces,w_3800,h_2000,q_95/v1702319871/sdx1wjlqkcqz3anqfabp.jpg",
+            "publishedAt": "2023-12-12T12:00:00Z",
+            "content": "Zach Bolinger/Icon Sportswire via Getty Images\r\nSpeaking of Iowa...\r\nWhat makes the Hawkeyes' stellar defensive season even more impressive is how much the team desperately needed it.\r\nAmong the many… [+711 chars]"
+        },
+        {
+            "source": {
+                "id": "talksport",
+                "name": "TalkSport"
+            },
+            "author": "161385360554578",
+            "title": "Rice rescues Arsenal, Arteta evades Raya question, more Premier League build-up",
+            "description": "talkSPORT.com brings you all the latest news, views and gossip from the world of football. Today’s headlines: Mikel Arteta dodges David Raya question after goalkeeper’s errors Declan Ri…",
+            "url": "https://talksport.com/football/1667216/football-news-live-arsenal-mikel-arteta-david-raya-premier-league/",
+            "urlToImage": "https://talksport.com/wp-content/uploads/sites/5/2023/12/jw-TALKSPORT-BLOG-06-12.jpg?strip=all&quality=100&w=1500&h=1000&crop=1",
+            "publishedAt": "2023-12-06T09:06:42Z",
+            "content": "Mikel Arteta didn't provide a straight answer when asked about David Raya's struggles during Arsenal's win at Luton.\r\nArsenal claimed a dramatic last-gasp win at Kenilworth Road with Declan Rice's st… [+1106 chars]"
+        },
+        {
+            "source": {
+                "id": "talksport",
+                "name": "TalkSport"
+            },
+            "author": "Josh Fordham",
+            "title": "Tottenham fans feared relegation without Harry Kane but Ange Postecoglou has got them scoring more...",
+            "description": "Tottenham losing Harry Kane in the summer sent the fans into crisis mode and you can’t blame them. Not only was he their record goalscorer, but also one of the best strikers in world football seaso…",
+            "url": "https://talksport.com/football/1666888/tottenham-goals-harry-kane-ange-postecoglou/",
+            "urlToImage": "https://talksport.com/wp-content/uploads/sites/5/2023/12/Kane_Postecoglou-Comp.png?strip=all&quality=100&w=1500&h=1000&crop=1",
+            "publishedAt": "2023-12-05T17:57:19Z",
+            "content": "Tottenham losing Harry Kane in the summer sent the fans into crisis mode and you cant blame them.\r\nNot only was he their record goalscorer, but also one of the best strikers in world football season … [+2220 chars]"
+        },
+        {
+            "source": {
+                "id": "espn-cric-info",
+                "name": "ESPN Cric Info"
+            },
+            "author": null,
+            "title": "Five famous people (and one cat) you didn't know have ESPNcricinfo profiles | ESPNcricinfo.com",
+            "description": "Why do a footballer, a Nobel laureate and a prime minister (no, not Imran Khan) find themselves in the ESPNcricinfo player database? | ESPNcricinfo.com",
+            "url": "http://www.espncricinfo.com/story/_/id/29102695/five-famous-people-one-cat-know-espncricinfo-profiles",
+            "urlToImage": "https://a.espncdn.com/i/cricket/cricinfo/1221668_1296x1296.gif",
+            "publishedAt": "2020-04-27T07:20:43Z",
+            "content": "Why do a cat, a footballer, a Nobel laureate and a prime minister find themselves in the ESPNcricinfo database? Here are six player profiles you wouldn't have expected we had.\r\nPeter the catThe only … [+5504 chars]"
+        }
+    ]
+}
