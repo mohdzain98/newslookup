@@ -62,32 +62,10 @@ const News = (props) => {
         <hr className="hr hr-blurry" />
         </div>
         {loading && <Spinner/>}
-        {/* <div className="container my-4"> 
-          <div className="row">
-            {this.state.articles.map((element) => {
-                console.log(element)
-              return (
-                <div className="col-md-4" key={element.url}>
-                  <NewsItem
-                    title={element.title ? element.title : ""}
-                    description={element.description ? element.description : ""}
-                    // imageUrl={element.urlToImage}
-                    imageUrl={element.image_url}
-                    newsUrl={element.url}
-                    author={element.author}
-                    date={element.publishedAt}
-                    // source={element.source.name}for newsapi.org
-                    source={element.source_id}
-                  />
-                </div>
-              );
-            })}
-          </div>
-          </div> */}
         <InfiniteScroll
           dataLength={articles.length}
           next={fetchMoreData}
-          hasMore={articles.length !== totalResults}
+          hasMore={totalResults - articles.length > props.pageSize}
           loader={<Spinner/>}
         >
         <div className="container my-4"> 
