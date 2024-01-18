@@ -17,9 +17,7 @@ const App =() => {
       <div>
       <Router>
         <Navbar/>
-        <LoadingBar
-        color='#f11946' progress={progress} height={3}
-        />
+        <LoadingBar color='#f11946' progress={progress} height={3}/>
         <Routes>
           <Route exact path="/" element={<News setProgress={setProgress}  apiKey={apiKey} key="general" pageSize={pagesize} country={'in'} category={'general'} />}></Route>
           <Route exact path="/business" element={<News setProgress={setProgress}  apiKey={apiKey} key="business" pageSize={pagesize} country={'in'} category={'business'} />}></Route>
