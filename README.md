@@ -2,16 +2,16 @@
 ### A news web app which fetches news from API and display them in different categories
 
 ## Prerequisites
-- Node.js <a href="https://nodejs.org/en">Download </a> from here
-- API key  <a href="https://newsapi.org/">Get Api Key</a> from here
+- Node.js <a href="https://nodejs.org/en" target="_BLANK">Download </a> from here
+- API key  <a href="https://newsapi.org/" target="_BLANK">Get Api Key</a> from here
 
 ## Getting Started
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/mohdzain98/noteswift.git
-   cd noteswift
+   git clone https://github.com/mohdzain98/newslookup.git
+   cd newslookup
 
 2. Install Dependencies
    ```bash
