@@ -1,7 +1,8 @@
 import React from "react";
+import '../App.css';
 
 const NewsItem = (props) =>{
-    let { title, description, imageUrl, newsUrl, author, date, source } =props;
+    let { title, description, imageUrl, newsUrl, author, date, source, tag } =props;
     return (
       <div className="my-3">
         <div className="card">
@@ -19,6 +20,7 @@ const NewsItem = (props) =>{
           />
           <div className="card-body">
             <h6 className="card-title">{title}...</h6>
+            <p className="visible" data-toggle="tooltip" data-placement="top" title={`News is ${tag} to Read`}>{tag}</p>
             <p className="card-text">{description}</p>
             <p className="card-text">
               <small className="text-muted">

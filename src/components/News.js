@@ -15,7 +15,23 @@ const News = (props) => {
     let nword = word.toLowerCase();
     return nword.charAt(0).toUpperCase() + nword.slice(1);
   };
+  const getTag = async (articles) =>{
+    const urlTwo = "http://127.0.0.1:5000/analysis"
+    articles.map( async (element,index)=>{
+      let resp = await fetch(urlTwo,{
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        }, 
+        body: JSON.stringify({"title": element.title})
+      })
+      let response = await resp.json()
+      articles[index].tag=response.result
+      console.log(articles[index].title +""+response.result)
+      return response.result
 
+    })
+  }
   const updateNews = async () =>{
     props.setProgress(10);
     const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page}&pageSize=${props.pageSize}`;
@@ -23,6 +39,7 @@ const News = (props) => {
     let data = await fetch(url);
     props.setProgress(30);
     let parsedData = await data.json();
+    let tagArticles = await getTag(parsedData.articles)
     props.setProgress(60);
     setArticles(parsedData.articles)
     settotalResults(parsedData.totalResults)
@@ -32,6 +49,7 @@ const News = (props) => {
   useEffect(() =>{
     document.title = `${capitalize(props.category)} NewsLookup`;
     updateNews();
+    // eslint-disable-next-line
   },[])
 //   handlePreClick = async () => {
 //     this.setState({
@@ -50,6 +68,7 @@ const News = (props) => {
     setPage(page+1)
     let data = await fetch(url);
     let parsedData = await data.json();
+    let tagArticles = await getTag(parsedData.articles)
     setArticles(articles.concat(parsedData.articles))
     settotalResults(parsedData.totalResults)
   }
@@ -81,6 +100,7 @@ const News = (props) => {
                     author={element.author}
                     date={element.publishedAt}
                     source={element.source.name}
+                    tag={element.tag}
                   />
                 </div>
               );
