@@ -24,6 +24,18 @@ const Navbar = () => {
                     <li className="nav-item"><Link className={`nav-link ${location.pathname === "/science"?"active":""}`} to="/science">Science</Link></li>
                     <li className="nav-item"><Link className={`nav-link ${location.pathname === "/technology"?"active":""}`} to="/technology">Technology</Link></li>
                 </ul>
+                {/* <div className="btn-group">
+                    <button type="button" className="btn btn-secondary dropdown-toggle mx-2 me-2" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                    <i className="fa-solid fa-globe me-2" style={{color: "#FFD43B"}}></i>Country
+                    </button>
+                    <ul className="dropdown-menu dropdown-menu-lg-end">
+                    <li><button className="dropdown-item"  type="button">India</button></li>
+                    <li><button className="dropdown-item"  type="button">Pakistan</button></li>
+                    <li><button className="dropdown-item"  type="button">USA</button></li>
+
+                    </ul>
+                </div> */}
+
                 </div>
             </div>
             </nav>
