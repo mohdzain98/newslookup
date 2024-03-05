@@ -17,7 +17,7 @@
    ```bash
    cd Microservices\SentimentAnalysis & python -m venv sa_venv & sa_venv\Scripts\activate & pip install -r requirement.txt & flask run
 
-3. Install Dependencies
+3. Install Dependencies<br>
    Open new cmd window and browse to same folder
    ```bash
    cd newslookup
