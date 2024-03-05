@@ -1,5 +1,5 @@
 # NewsLookup
-### A news web app which fetches news from API and display them in different categories
+### A news web app which not only fetches news from API and display them in different categories but also performs News Headlines Sentiment Analysis using Machine Learning for classification of headlines into Healthy and unhealthy.
 
 ## Prerequisites
 - Node.js <a href="https://nodejs.org/en" target="_BLANK">Download </a> from here
