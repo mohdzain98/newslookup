@@ -15,7 +15,7 @@
 
 2. Start the Sentiment Analysis flask server
    ```bash
-   cd Microservices\SentimentAnalysis & python -m venv sa_venv & sa_venv\Scripts\activate & pip install -r requirements.txt & flask run
+   cd Microservices\SentimentAnalysis & python -m venv sa_venv & sa_venv\Scripts\activate & pip install -r requirement.txt & flask run
 
 3. Install Dependencies
    Open new cmd window and browse to same folder
